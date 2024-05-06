@@ -1,0 +1,44 @@
+nav{
+    width: 30%;
+    font-size: 30px;
+    border-bottom: 2px solid white;
+    padding: 10px 0px;
+    margin-right: calc(10%/7);
+    transition: 1s;
+    display: flex;
+}
+#flex{
+    display: flex;
+    justify-content:flex-end;
+    align-items:center ;
+  
+
+}
+#flex a{
+    font-size: 40px;
+  text-decoration: none;
+  color: red
+
+}
+nav:hover{
+    color: aquamarine;
+   
+
+}
+img{
+    width: 30%;
+    margin: calc(10%/7);
+    transition: 1s;
+}
+*{
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+img:hover{
+    box-shadow: 10px 10px 10px white;
+    border-radius: 20px;
+    transform: translateY(-10px);
+
+}
